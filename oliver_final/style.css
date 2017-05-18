@@ -1,0 +1,127 @@
+ 
+   #one {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    z-index: 7;
+    display: inline-block;
+}
+
+  #two {
+    position: absolute;
+    left: 1606px;
+    top: 431px;
+    z-index: 3;
+    display: inline-block;
+}
+
+  #three {
+    position: absolute;
+    left: 289px;
+    top:1610px;
+    z-index: 2;
+    display: inline-block;
+}
+
+  #four {
+    position: absolute;
+    left: 1150px;
+    top: 730px;
+    z-index: 5;
+    display: inline-block;
+}
+
+  #five {
+    position: absolute;
+    left: 1904px;
+    top: 1321px;
+    z-index: 6;
+    display: inline-block;
+}
+  #six {
+    position: absolute;
+    left: 530px;
+    top: 1190px;
+    z-index: 8;
+    display: inline-block;
+}
+
+  #seven {
+    position: absolute;
+    left: 1px;
+    top: 467px;
+    z-index: 4;
+    display: inline-block;
+}
+
+  #eight {
+    position: absolute;
+    left: 0px;
+    top: 2325px;
+    z-index: 9;
+    display: inline-block;
+}
+
+  #nine {
+    position: absolute;
+    left: 826px;
+    top: 2088px;
+    z-index: 10;
+    display: inline-block;
+}
+
+  #ten {
+    position: absolute;
+    left: 100px;
+    top: 2000px;
+    z-index: 11;
+    display: inline-block;
+}
+    
+
+
+.bg {
+     min-height: 100%;
+     min-width: 1024px;
+     width: 100%;
+     height: auto;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     display: inline-block;
+}
+
+    .img:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+
+        @media screen and (max-width: 1024px) { 
+            img.bg {
+                left: 50%;
+                margin-left: -512px;  
+            }
+            </css>

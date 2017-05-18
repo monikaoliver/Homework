@@ -1,0 +1,46 @@
+
+.bg {
+     min-height: 100%;
+     min-width: 1024px;
+     width: 100%;
+     height: auto;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 0;
+     display: inline-block;
+}
+    
+    #header {
+        position:absolute;
+        font-family: 'Abril Fatface';
+        font-size: 100px;
+        font-style: bold;
+        left: 775px;
+        top: 25px;
+        color: darkred;
+        background: antiquewhite;
+        padding: 20px;
+        background-blend-mode: saturation;
+        border-radius: 30px;
+        z-index: 1;
+    }
+    
+    .vid {
+        position: absolute;
+        left: 550px;
+        top: 350px;
+        z-index: 2;
+       
+    }
+    
+    .iframe {
+        border: 100px darkred;
+        padding: 0px;
+        border-radius: 40px;
+        z-index: 3;
+    }
+    
+    
+   
+    
